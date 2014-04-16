@@ -1,5 +1,5 @@
 from node import *
-class bst:
+class Bst:
     def __init__(self, key_cmp = None):
         self.cnt = 0
         self.head = Node()
@@ -76,6 +76,8 @@ class bst:
         return bst_find_insert_position(self.root(), node, self.head, self.key_cmp)
 
     def insert_one_node(self, node, unique = False):
+        if not isinstance(node, Node):
+            raise TypeError('Node Type requered')
         p = self.find_insert_positon(node)
 #         print 'newnode: %s, pos: %s' % (node, p)
         if p is self.head:
@@ -99,19 +101,23 @@ class bst:
             return node
 
     def delete_one_node(self, node):
+
         d = delete = node
         if left(delete) is not self.head and right(delete) is not self.head:
-            d = bst_successor(delete, head)
+            d = bst_successor(delete, self.head)
             delete.copy_data_from(d)
         n = left(d) if self.head is right(d) else right(d)
         p = parent(d)
         if d is left(p):
             p.l = n
-        else:
+        elif d is right(p):
             p.r = n
+        else:
+            p.p = n
         if n is not self.head:
             n.p = p
         del d
+        self.cnt -= 1
 
     def __iter__(self):
         if self.empty():
@@ -122,17 +128,25 @@ class bst:
                 yield each
                 each = self.next(each)
 
+    def insert_data_list(self, data_list, unique = False):
+        for data in data_list:
+            node = Node(data = data)
+            self.insert_one_node(node, unique = False)
 
-    def render(self):
+    def dot_node_option(self, node):
+        return {}
+
+    def render(self, dot_file_name, dot_format = 'png'):
         if self.empty():
             return
         from graphviz import Digraph
         dot = Digraph()
-        dot.format = 'png'
+
         root = self.root()
+        dot.format = dot_format
 
         def all_nodes_and_edges(subtree):
-            dot.node(subtree.name, label = subtree.label)
+            dot.node(subtree.name, label = subtree.label, **self.dot_node_option(subtree))
             if subtree.l is not self.head:
                 dot.edge(subtree.name, subtree.l.name)
                 dot.edge(subtree.l.name, subtree.name)
@@ -152,23 +166,29 @@ class bst:
                 dot.edge(subtree.name, null.name)
 
         all_nodes_and_edges(root)
-        dot.render('new.png')
+        dot.render(dot_file_name)
 
 
 
 if __name__ == '__main__':
-    tree = bst(key_cmp = lambda x, y: x.data > y.data)
+    tree = Bst(key_cmp = lambda x, y: x.data > y.data)
     for i in range(3):
-        node1 = tree.insert_one_node(Node(data = 1), unique = True)
-        node2 = tree.insert_one_node(Node(data = 2), unique = True)
-        node3 = tree.insert_one_node(Node(data = 3), unique = True)
+        node1 = tree.insert_one_node(Node(data = 1))
+        node2 = tree.insert_one_node(Node(data = 2))
+        node3 = tree.insert_one_node(Node(data = 3))
 
     tree.tree_shape()
     for i in tree:
         print i
 
 #     tree.delete_one_node(node1)
+    l = [1, 2, 3, 4, 5, 6]
+    tree.insert_data_list(l)
     tree.tree_shape()
-    tree.render()
+    cnt = tree.size()
+    for i in range(cnt):
+        tree.delete_one_node(tree.root())
+        tree.tree_shape()
+    #tree.render()
     raw_input()
 

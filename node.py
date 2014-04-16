@@ -42,7 +42,7 @@ def bst_right_most(root, head = None):
     return root
 
 def uncle(node):
-    p = parent(pnode)
+    p = parent(node)
     pp = parent(p)
     if (left(pp) == p):
         return right(pp)
