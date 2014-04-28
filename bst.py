@@ -41,13 +41,16 @@ class Bst:
     def empty(self):
         return self.size() == 0
 
+    def node_str(self, node):
+        return str(node)
+
     def node_shape_recusive(self, subtree, table_cnt = 0):
         delimiter = table_cnt * '\t'
         if subtree is self.head:
             print delimiter + "[None]"
         else:
             self.node_shape_recusive(right(subtree), table_cnt + 1)
-            print delimiter + str(subtree)
+            print delimiter + self.node_str(subtree)
             self.node_shape_recusive(left(subtree), table_cnt + 1)
 
     def tree_shape(self):
@@ -132,6 +135,10 @@ class Bst:
         for data in data_list:
             node = Node(data = data)
             self.insert_one_node(node, unique = False)
+
+    def insert_data(self, data, unique = False):
+        node = Node(data = data)
+        self.insert_one_node(node, unique = False)
 
     def dot_node_option(self, node):
         return {}

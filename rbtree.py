@@ -9,7 +9,7 @@ class Rbtree(Bst):
     def insert_one_node(self, node, unique = False):
         node.color = False
         if not isinstance(node, Node):
-            raise TypeError('Node Type requered')
+            raise TypeError('Node Type required!')
         p = self.find_insert_positon(node)
 #         print 'newnode: %s, pos: %s' % (node, p)
         if p is self.head:
@@ -98,6 +98,8 @@ class Rbtree(Bst):
         if dc is True:
             self.delete_adjust(n, p)
 
+    def node_str(self, node):
+        return '(%s, %s)' % (node.data, 'b' if node.color else 'r')
     def delete_adjust(self, node, node_parent):
 
         n = node
