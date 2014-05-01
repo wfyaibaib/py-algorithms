@@ -1,0 +1,53 @@
+// None
+digraph {
+	5 [label=3 color=black]
+		5 -> 3
+		3 -> 5
+	3 [label=1 color=black]
+		3 -> 2
+		2 -> 3
+	2 [label=0 color=black]
+	12 [label=null]
+		2 -> 12
+	13 [label=null]
+		2 -> 13
+		3 -> 4
+		4 -> 3
+	4 [label=2 color=black]
+	14 [label=null]
+		4 -> 14
+	15 [label=null]
+		4 -> 15
+		5 -> 7
+		7 -> 5
+	7 [label=5 color=black]
+		7 -> 6
+		6 -> 7
+	6 [label=4 color=black]
+	16 [label=null]
+		6 -> 16
+	17 [label=null]
+		6 -> 17
+		7 -> 9
+		9 -> 7
+	9 [label=7 color=red]
+		9 -> 8
+		8 -> 9
+	8 [label=6 color=black]
+	18 [label=null]
+		8 -> 18
+	19 [label=null]
+		8 -> 19
+		9 -> 10
+		10 -> 9
+	10 [label=8 color=black]
+	20 [label=null]
+		10 -> 20
+		10 -> 11
+		11 -> 10
+	11 [label=9 color=red]
+	21 [label=null]
+		11 -> 21
+	22 [label=null]
+		11 -> 22
+}

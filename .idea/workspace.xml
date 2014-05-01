@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac298189-ec86-4423-8071-7e577c6905eb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aatree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/link.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bst.py" afterPath="$PROJECT_DIR$/bst.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbtree.py" afterPath="$PROJECT_DIR$/rbtree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="py-algorithms.iws" />
@@ -16,6 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/py-algorithms$link.coverage" NAME="link Coverage Results" MODIFIED="1398951476420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py-algorithms$rbtree.coverage" NAME="rbtree Coverage Results" MODIFIED="1397657157453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py-algorithms$Unittests_in_rbtree.coverage" NAME="Unittests in rbtree Coverage Results" MODIFIED="1397656907919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -24,6 +26,11 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -34,7 +41,45 @@
       <file leaf-file-name="rbtree.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rbtree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="12" selection-start="1292" selection-end="1292" vertical-scroll-proportion="1.4102564" vertical-offset="225" max-vertical-offset="4850">
+            <state line="82" column="32" selection-start="2828" selection-end="2828" vertical-scroll-proportion="-0.1764706" vertical-offset="2125" max-vertical-offset="4850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/link.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="7" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="2550" max-vertical-offset="6050">
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dot.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://F:/Win7-app/Python27/Lib/site-packages/graphviz/dot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="18" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="2600">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QtGui.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1998249143/PySide/QtGui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9986" column="8" selection-start="307611" selection-end="307611" vertical-scroll-proportion="0.0" vertical-offset="249650" max-vertical-offset="799175">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aatree.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aatree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -43,7 +88,7 @@
       <file leaf-file-name="bst.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="21" selection-start="5771" selection-end="5771" vertical-scroll-proportion="0.0" vertical-offset="3400" max-vertical-offset="5175">
+            <state line="129" column="12" selection-start="3695" selection-end="3695" vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="5400">
               <folding />
             </state>
           </provider>
@@ -52,7 +97,7 @@
       <file leaf-file-name="node.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="4" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="526" max-vertical-offset="4825">
+            <state line="128" column="8" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.0" vertical-offset="2975" max-vertical-offset="4825">
               <folding />
             </state>
           </provider>
@@ -76,8 +121,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/bst.py" />
         <option value="$PROJECT_DIR$/rbtree.py" />
+        <option value="$PROJECT_DIR$/aatree.py" />
+        <option value="$PROJECT_DIR$/node.py" />
+        <option value="$PROJECT_DIR$/bst.py" />
+        <option value="$PROJECT_DIR$/link.py" />
       </list>
     </option>
   </component>
@@ -94,14 +142,14 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -113,12 +161,61 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="py-algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.5 (F:/Win7-app/Python27/python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py-algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.5 (F:/Win7-app/Python27/python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py-algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.5 (F:/Win7-app/Python27/python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphviz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -129,45 +226,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="py-algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="py-algorithms">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="py-algorithms">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="py-algorithms">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -185,7 +243,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.rbtree">
+  <component name="RunManager" selected="Python.link">
     <configuration default="false" name="rbtree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,6 +261,25 @@
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="link" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py-algorithms" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/link.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -382,17 +459,22 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in rbtree" />
       <item index="1" class="java.lang.String" itemvalue="Python.rbtree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.link" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.rbtree" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.link" />
+        <item index="1" class="java.lang.String" itemvalue="Python.rbtree" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -425,14 +507,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3003195" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21805112" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19329074" sideWeight="0.6709062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298722" sideWeight="0.845787" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19169329" sideWeight="0.745628" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21805112" sideWeight="0.845787" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1956869" sideWeight="0.845787" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45468998" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25437203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -464,6 +546,62 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="5175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbtree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="34" selection-start="6434" selection-end="6434" vertical-scroll-proportion="0.0" vertical-offset="4500" max-vertical-offset="4850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="14" selection-start="4368" selection-end="4368" vertical-scroll-proportion="0.0" vertical-offset="3800" max-vertical-offset="5175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="4" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="4825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbtree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="12" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="21" selection-start="5771" selection-end="5771" vertical-scroll-proportion="0.0" vertical-offset="4875" max-vertical-offset="5175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="4" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rbtree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="115" column="41" selection-start="3622" selection-end="3622" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4800">
@@ -471,23 +609,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/Win7-app/Python27/Lib/site-packages/graphviz/dot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="2575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="526" max-vertical-offset="4825">
+        <state line="128" column="8" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.0" vertical-offset="2975" max-vertical-offset="4825">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bst.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="21" selection-start="5771" selection-end="5771" vertical-scroll-proportion="0.0" vertical-offset="3400" max-vertical-offset="5175">
+        <state line="129" column="12" selection-start="3695" selection-end="3695" vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="5400">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aatree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1998249143/PySide/QtGui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9986" column="8" selection-start="307611" selection-end="307611" vertical-scroll-proportion="0.0" vertical-offset="247095" max-vertical-offset="799150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="2550" max-vertical-offset="6050">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rbtree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="12" selection-start="1292" selection-end="1292" vertical-scroll-proportion="1.4102564" vertical-offset="225" max-vertical-offset="4850">
+        <state line="82" column="32" selection-start="2828" selection-end="2828" vertical-scroll-proportion="-0.1764706" vertical-offset="2125" max-vertical-offset="4850">
           <folding />
         </state>
       </provider>

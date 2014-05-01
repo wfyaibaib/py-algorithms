@@ -176,6 +176,15 @@ class Bst:
         dot.render(dot_file_name)
 
 
+    # def nodes_and_links(self):
+    #     root = self.root()
+    #     nodes = []
+    #     links = {}
+    #     def all_nodes_and_links(subtree):
+    #         if subtree is not self.head:
+    #             nodes.append(subtree)
+
+
 
 if __name__ == '__main__':
     tree = Bst(key_cmp = lambda x, y: x.data > y.data)
